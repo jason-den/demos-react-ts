@@ -5,11 +5,10 @@
   "scripts": {
     "dev": "next dev -p 2000",
     "build": "next build",
-    "start": "next start -p 2000",
+    "start": "next dev -p 2000",
     "lint": "next lint"
   },
   "dependencies": {
-    "@appkit4-dev/styles": "0.0.0",
     "@floating-ui/core": "^1.2.5",
     "@floating-ui/react": "^0.22.3",
     "@next/font": "13.1.1",
