@@ -14,5 +14,5 @@
     "unhover"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.experimental.configFile": "tailwind.config.js",
 }
