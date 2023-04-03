@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "react",
+    "import",
+    "prettier",
+    "unused-imports",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.jsx",
+        "*.js",
+        "*.ts",
+        "*.tsx"
+      ]
+    }
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "useTabs": true,
+        "printWidth": 120,
+        "singleQuote": false,
+        "trailingComma": "all",
+        "jsxSingleQuote": false
+      }
+    ],
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/no-deprecated": "off",
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/ban-types": "error",
+    "@typescript-eslint/array-type": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-base-to-string": "error",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-unnecessary-condition": "warn",
+    "unused-imports/no-unused-imports": "error",
+    "import/no-duplicates": "error"
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "coverage"
+  ]
+}

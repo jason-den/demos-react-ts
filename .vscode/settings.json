@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "git.mergeEditor": false,
+  "[typescriptreact][typescript][javascriptreact][javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "cSpell.words": [
+    "appkit",
+    "appkiticon",
+    "evdc",
+    "inversify",
+    "odfs",
+    "svgs",
+    "unhover"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+}
